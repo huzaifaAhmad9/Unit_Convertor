@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoursToSeconds">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:text="Convert Hours to Seconds"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"/>
+        <EditText
+            android:id="@+id/hi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Enter Value in Hours"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/cli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            android:textSize="20sp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="145dp"
+            android:backgroundTint="@color/black"/>
+
+        <TextView
+            android:id="@+id/te"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="55dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
